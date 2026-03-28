@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Makeup Artist Sangeeta | Bridal Makeup Artist in Sivasagar, Assam</title>
+  <meta name="description" content="Makeup Artist Sangeeta is a professional bridal makeup artist in Sivasagar, Assam offering bridal makeup, engagement makeup, party makeup, HD & airbrush makeup, and hairstyling. Book your special day now." />
+  <meta name="keywords" content="Makeup Artist in Sivasagar, Bridal Makeup Artist in Assam, Professional Makeup Artist near me, Wedding Makeup Artist Sivasagar, Bridal makeup Sivasagar, Party makeup Assam" />
+  <meta name="theme-color" content="#d7b48a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fffaf7;
+      --white:#ffffff;
+      --text:#3f312d;
+      --muted:#7f6a63;
+      --blush:#f3d8d8;
+      --nude:#ecd9c8;
+      --gold:#c69a5b;
+      --gold-dark:#a97837;
+      --line:rgba(111,78,55,0.12);
+      --shadow:0 10px 35px rgba(108,78,54,0.10);
+      --shadow-lg:0 20px 60px rgba(108,78,54,0.16);
+      --radius:22px;
+      --radius-sm:16px;
+      --max:1200px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(243,216,216,.6), transparent 30%),
+        radial-gradient(circle at top right, rgba(236,217,200,.6), transparent 25%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(calc(100% - 32px), var(--max));margin:auto}
+    .section{padding:88px 0}
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:8px 14px;border:1px solid var(--line);
+      border-radius:999px;background:rgba(255,255,255,.72);
+      backdrop-filter: blur(10px);
+      color:var(--gold-dark);font-size:.82rem;font-weight:600;
+    }
+    .eyebrow::before{
+      content:"";width:8px;height:8px;border-radius:50%;
+      background:linear-gradient(135deg,var(--gold),#f7dfb2);
+      box-shadow:0 0 0 4px rgba(198,154,91,.12);
+    }
+    h1,h2,h3,h4{
+      margin:0 0 14px;
+      font-family:"Cormorant Garamond", serif;
+      line-height:1.05;
+      color:#352521;
+    }
+    h1{font-size:clamp(2.6rem,7vw,5.4rem);font-weight:700}
+    h2{font-size:clamp(2rem,5vw,3.3rem);font-weight:700}
+    h3{font-size:clamp(1.35rem,3.5vw,2rem);font-weight:600}
+    p{margin:0 0 14px;color:var(--muted)}
+    .lead{font-size:1.06rem;max-width:650px}
+    .grid{display:grid;gap:24px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:14px 22px;border-radius:999px;border:none;cursor:pointer;
+      font-weight:700;transition:.3s ease;white-space:nowrap;
+    }
+    .btn-primary{
+      background:linear-gradient(135deg,var(--gold),#e3c08a);
+      color:white;box-shadow:0 10px 25px rgba(198,154,91,.28);
+    }
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 32px rgba(198,154,91,.35)}
+    .btn-secondary{
+      background:rgba(255,255,255,.82);color:var(--text);
+      border:1px solid var(--line);backdrop-filter:blur(8px);
+    }
+    .btn-secondary:hover{transform:translateY(-2px);background:white}
+    .card{
+      background:rgba(255,255,255,.84);
+      border:1px solid rgba(255,255,255,.7);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      backdrop-filter:blur(10px);
+    }
+    header{
+      position:sticky;top:0;z-index:1000;
+      background:rgba(255,250,247,.72);
+      backdrop-filter:blur(14px);
+      border-bottom:1px solid rgba(111,78,55,.08);
+    }
+    .nav{
+      display:flex;align-items:center;justify-content:space-between;
+      min-height:76px;gap:18px;
+    }
+    .brand{
+      display:flex;align-items:center;gap:12px;font-weight:700;
+    }
+    .brand-mark{
+      width:42px;height:42px;border-radius:50%;
+      display:grid;place-items:center;
+      background:linear-gradient(135deg,var(--gold),#f1d7a6);
+      color:white;font-family:"Cormorant Garamond",serif;font-size:1.35rem;
+      box-shadow:0 8px 20px rgba(198,154,91,.25);
+      flex-shrink:0;
+    }
+    .brand small{display:block;color:var(--muted);font-weight:500;font-size:.72rem}
+    .nav-links{
+      display:flex;align-items:center;gap:22px;
+    }
+    .nav-links a{
+      color:#5f4a43;font-weight:600;font-size:.95rem;
+      position:relative;
+    }
+    .nav-links a::after{
+      content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;
+      background:linear-gradient(90deg,var(--gold),#efcf9a);transition:.3s ease;
+      border-radius:999px;
+    }
+    .nav-links a:hover::after,.nav-links a.active::after{width:100%}
+    .nav-actions{display:flex;align-items:center;gap:12px}
+    .menu-toggle{
+      display:none;background:none;border:none;font-size:1.6rem;color:var(--text);cursor:pointer;
+    }
+
+    .hero{padding:68px 0 36px}
+    .hero-wrap{
+      display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;
+    }
+    .hero-content .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
+    .hero-meta{
+      display:flex;flex-wrap:wrap;gap:12px;margin-top:28px
+    }
+    .meta-pill{
+      padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.76);
+      border:1px solid var(--line);font-size:.9rem;color:#654c45
+    }
+    .hero-visual{
+      position:relative;min-height:540px;
+    }
+    .hero-main{
+      height:100%;
+      border-radius:34px;
+      overflow:hidden;position:relative;
+      box-shadow:var(--shadow-lg);
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.08), rgba(0,0,0,.20)),
+        url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80') center/cover;
+    }
+    .hero-badge{
+      position:absolute;left:-12px;bottom:24px;
+      padding:18px;border-radius:20px;background:rgba(255,255,255,.9);
+      box-shadow:var(--shadow);max-width:220px
+    }
+    .hero-badge strong{display:block;color:#3b2924}
+    .hero-float{
+      position:absolute;right:-12px;top:24px;
+      padding:18px;border-radius:20px;background:rgba(255,245,248,.92);
+      box-shadow:var(--shadow);max-width:220px;border:1px solid rgba(198,154,91,.16)
+    }
+
+    .mini-stats{grid-template-columns:repeat(4,1fr)}
+    .stat{text-align:center;padding:24px}
+    .stat strong{display:block;font-size:1.8rem;color:var(--gold-dark);font-family:"Cormorant Garamond",serif}
+    .stat span{color:var(--muted);font-size:.92rem}
+
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+    .about-visual{
+      min-height:500px;border-radius:30px;overflow:hidden;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,.04), rgba(0,0,0,.16)),
+        url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80') center/cover;
+      box-shadow:var(--shadow-lg);
+      position:relative;
+    }
+    .about-badge{
+      position:absolute;left:22px;bottom:22px;background:rgba(255,255,255,.88);
+      padding:16px 18px;border-radius:18px;box-shadow:var(--shadow)
+    }
+
+    .check-list{display:grid;gap:14px;margin-top:18px}
+    .check-item{
+      display:flex;gap:12px;align-items:flex-start;
+      padding:14px 16px;border-radius:18px;background:rgba(255,255,255,.8);border:1px solid var(--line)
+    }
+    .check-icon{
+      width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+      background:linear-gradient(135deg,var(--gold),#f5dca9);color:white;font-size:.85rem;flex-shrink:0
+    }
+
+    .services-grid{grid-template-columns:repeat(3,1fr)}
+    .service-card{padding:28px;position:relative;overflow:hidden}
+    .service-card::before{
+      content:"";position:absolute;inset:auto -40px -40px auto;width:120px;height:120px;
+      background:radial-gradient(circle, rgba(243,216,216,.7), transparent 70%);
+      border-radius:50%;
+    }
+    .service-icon{
+      width:58px;height:58px;border-radius:18px;display:grid;place-items:center;
+      background:linear-gradient(135deg,var(--blush),#fff);
+      color:var(--gold-dark);font-size:1.45rem;margin-bottom:16px;
+      border:1px solid rgba(198,154,91,.12)
+    }
+
+    .ba-wrap{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+    .slider-card{padding:20px}
+    .before-after{
+      position:relative;width:100%;aspect-ratio:4/5;border-radius:26px;overflow:hidden;
+      box-shadow:var(--shadow-lg);
+      background:#ddd;
+    }
+    .before-after .img{
+      position:absolute;inset:0;background-size:cover;background-position:center;
+    }
+    .before{
+      background-image:url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80');
+      filter:saturate(.8) contrast(.95);
+    }
+    .after{
+      background-image:url('https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1200&q=80');
+      width:50%;overflow:hidden;
+    }
+    .after::after{
+      content:"";position:absolute;top:0;right:0;width:100vw;height:100%;
+      background:inherit;background-size:cover;background-position:center;
+    }
+    .slider-line{
+      position:absolute;top:0;bottom:0;left:50%;width:3px;background:white;
+      box-shadow:0 0 0 1px rgba(0,0,0,.08);
+    }
+    .slider-thumb{
+      position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+      width:54px;height:54px;border-radius:50%;background:white;display:grid;place-items:center;
+      box-shadow:var(--shadow);font-size:1.2rem;color:var(--gold-dark)
+    }
+    .range{
+      width:100%;margin-top:18px;accent-color:var(--gold);
+    }
+    .label-chip{
+      position:absolute;top:16px;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.88);
+      font-size:.82rem;font-weight:700;color:#563f39
+    }
+    .label-before{left:16px}
+    .label-after{right:16px}
+
+    .portfolio-grid{grid-template-columns:repeat(4,1fr)}
+    .gallery-item{
+      position:relative;overflow:hidden;border-radius:24px;min-height:260px;
+      box-shadow:var(--shadow);background:#eee;
+    }
+    .gallery-item.large{grid-column:span 2;grid-row:span 2;min-height:544px}
+    .gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+    .gallery-item:hover img{transform:scale(1.06)}
+    .gallery-overlay{
+      position:absolute;inset:auto 0 0 0;padding:18px;
+      background:linear-gradient(180deg,transparent,rgba(0,0,0,.58));color:white
+    }
+    .gallery-tag{
+      display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.18);
+      backdrop-filter:blur(5px);font-size:.78rem;margin-bottom:8px
+    }
+
+    .testimonials{grid-template-columns:repeat(3,1fr)}
+    .review{padding:26px}
+    .stars{color:#d8a95f;letter-spacing:2px;margin-bottom:10px}
+    .reviewer{display:flex;align-items:center;gap:12px;margin-top:18px}
+    .avatar{
+      width:46px;height:46px;border-radius:50%;
+      background:linear-gradient(135deg,var(--nude),var(--blush));
+      display:grid;place-items:center;font-weight:700;color:#6d4f44
+    }
+
+    .cta-banner{
+      padding:34px;border-radius:30px;
+      background:
+        linear-gradient(135deg, rgba(198,154,91,.94), rgba(233,197,145,.88)),
+        linear-gradient(180deg,#fff,#fff);
+      color:white;box-shadow:var(--shadow-lg);
+      display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap
+    }
+    .cta-banner p{color:rgba(255,255,255,.9);margin:0}
+
+    .booking-wrap{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+    .form-card,.contact-card{padding:28px}
+    form{display:grid;gap:14px}
+    input,textarea{
+      width:100%;padding:15px 16px;border-radius:16px;border:1px solid var(--line);
+      font:inherit;background:rgba(255,255,255,.95);color:var(--text);outline:none;transition:.2s ease
+    }
+    input:focus,textarea:focus{border-color:var(--gold);box-shadow:0 0 0 4px rgba(198,154,91,.12)}
+    textarea{min-height:130px;resize:vertical}
+    .info-list{display:grid;gap:14px;margin-top:18px}
+    .info-item{
+      display:flex;gap:14px;align-items:flex-start;
+      padding:16px;border-radius:18px;background:rgba(255,255,255,.8);border:1px solid var(--line)
+    }
+    .info-icon{
+      width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--blush),#fff);
+      display:grid;place-items:center;color:var(--gold-dark);flex-shrink:0
+    }
+    .socials{display:flex;gap:12px;margin-top:18px}
+    .social{
+      width:44px;height:44px;border-radius:50%;display:grid;place-items:center;
+      border:1px solid var(--line);background:white;transition:.25s ease
+    }
+    .social:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+    .map-embed{
+      width:100%;height:280px;border:none;border-radius:22px;box-shadow:var(--shadow)
+    }
+
+    footer{
+      padding:34px 0 100px;
+      border-top:1px solid rgba(111,78,55,.08);
+      color:var(--muted)
+    }
+    .footer-wrap{
+      display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap
+    }
+
+    .whatsapp-float,.book-float{
+      position:fixed;z-index:999;display:inline-flex;align-items:center;justify-content:center;
+      border-radius:999px;box-shadow:var(--shadow-lg);font-weight:700
+    }
+    .whatsapp-float{
+      right:18px;bottom:18px;width:58px;height:58px;
+      background:#25D366;color:white;font-size:1.4rem
+    }
+    .book-float{
+      left:50%;transform:translateX(-50%);bottom:18px;
+      padding:14px 22px;background:linear-gradient(135deg,var(--gold),#e5c591);color:white
+    }
+
+    .fade-up{
+      opacity:0;transform:translateY(24px);transition:opacity .7s ease, transform .7s ease
+    }
+    .fade-up.show{opacity:1;transform:none}
+
+    @media (max-width: 1024px){
+      .hero-wrap,.split,.ba-wrap,.booking-wrap{grid-template-columns:1fr}
+      .services-grid{grid-template-columns:repeat(2,1fr)}
+      .portfolio-grid{grid-template-columns:repeat(2,1fr)}
+      .testimonials{grid-template-columns:1fr 1fr}
+      .mini-stats{grid-template-columns:repeat(2,1fr)}
+      .hero-visual{min-height:460px}
+    }
+    @media (max-width: 768px){
+      .section{padding:72px 0}
+      .menu-toggle{display:block}
+      .nav-links{
+        position:absolute;left:16px;right:16px;top:78px;
+        flex-direction:column;align-items:flex-start;padding:18px;
+        background:rgba(255,255,255,.95);border:1px solid var(--line);
+        border-radius:22px;box-shadow:var(--shadow);display:none
+      }
+      .nav-links.open{display:flex}
+      .nav-actions .desktop-btn{display:none}
+      .services-grid,.testimonials,.mini-stats,.portfolio-grid{grid-template-columns:1fr}
+      .gallery-item.large{grid-column:span 1;grid-row:span 1;min-height:280px}
+      .hero-main{min-height:420px}
+      .hero-badge,.hero-float{position:absolute;max-width:180px;padding:14px}
+      .cta-banner{padding:28px}
+      .book-float{padding:12px 18px;font-size:.95rem}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#home" class="brand">
+        <div class="brand-mark">S</div>
+        <div>
+          Makeup Artist Sangeeta
+          <small>Sivasagar, Assam</small>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#booking">Book</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-primary desktop-btn" href="https://wa.me/919435057081" target="_blank" rel="noopener">Book Now</a>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-wrap">
+        <div class="hero-content fade-up">
+          <span class="eyebrow">Professional Makeup Artist in Sivasagar</span>
+          <h1>Enhancing Your Natural Beauty for Every Special Occasion</h1>
+          <p class="lead">From timeless bridal looks to elegant party glam, Makeup Artist Sangeeta creates refined, radiant makeup that makes you feel confident, beautiful, and truly special on your big day.</p>
+
+          <div class="cta-row">
+            <a href="#booking" class="btn btn-primary">Book Appointment</a>
+            <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-pill">Bridal Makeup Artist in Assam</div>
+            <div class="meta-pill">HD & Airbrush Makeup</div>
+            <div class="meta-pill">Wedding Makeup Artist Sivasagar</div>
+          </div>
+        </div>
+
+        <div class="hero-visual fade-up">
+          <div class="hero-main"></div>
+          <div class="hero-badge">
+            <strong>Luxury Bridal Looks</strong>
+            <span style="color:var(--muted);font-size:.92rem;">Elegant makeup crafted for weddings, engagements, and cherished celebrations.</span>
+          </div>
+          <div class="hero-float">
+            <strong style="display:block;color:#3b2924">Trusted by Brides</strong>
+            <span style="color:var(--muted);font-size:.92rem;">Soft glam, long-lasting finish, hygienic products, and personalized styling.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid mini-stats">
+        <div class="card stat fade-up"><strong>100+</strong><span>Happy Clients</span></div>
+        <div class="card stat fade-up"><strong>Bridal</strong><span>Specialist Makeup</span></div>
+        <div class="card stat fade-up"><strong>HD</strong><span>Flawless Camera Finish</span></div>
+        <div class="card stat fade-up"><strong>Hygiene</strong><span>Clean & Safe Practice</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div class="about-visual fade-up">
+          <div class="about-badge">
+            <strong style="display:block;color:#3b2924">Makeup Artist Sangeeta</strong>
+            <span style="color:var(--muted);font-size:.92rem;">Beauty services in Melachakar, Sivasagar, Assam</span>
+          </div>
+        </div>
+        <div class="fade-up">
+          <span class="eyebrow">About Sangeeta</span>
+          <h2>A Warm, Personal Touch for Your Most Important Moments</h2>
+          <p>Makeup Artist Sangeeta is known for creating graceful, polished looks that highlight each client’s natural beauty. Based in Sivasagar, Assam, she works closely with brides and clients to understand their style, skin needs, outfit, and event mood before creating a look that feels just right.</p>
+          <p>Her approach is simple: beautiful makeup should never feel heavy or artificial. Whether you want classic bridal elegance, soft glam for an engagement, or a fresh party-ready look, Sangeeta focuses on comfort, confidence, and lasting results.</p>
+
+          <div class="check-list">
+            <div class="check-item">
+              <div class="check-icon">✓</div>
+              <div><strong>Bridal Specialist</strong><br><span style="color:var(--muted)">Looks designed to photograph beautifully and stay fresh throughout your ceremony.</span></div>
+            </div>
+            <div class="check-item">
+              <div class="check-icon">✓</div>
+              <div><strong>Quality Products</strong><br><span style="color:var(--muted)">Carefully selected products for long wear, comfort, and skin-friendly application.</span></div>
+            </div>
+            <div class="check-item">
+              <div class="check-icon">✓</div>
+              <div><strong>Professional Hygiene</strong><br><span style="color:var(--muted)">Clean tools, sanitized products, and a safe beauty experience every time.</span></div>
+            </div>
+            <div class="check-item">
+              <div class="check-icon">✓</div>
+              <div><strong>Customized Styling</strong><br><span style="color:var(--muted)">Makeup matched with your face shape, skin tone, jewelry, and event style.</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="fade-up" style="max-width:760px;margin-bottom:28px">
+          <span class="eyebrow">Beauty Services</span>
+          <h2>Premium Makeup Services for Every Celebration</h2>
+          <p>Looking for a makeup artist in Sivasagar who understands bridal beauty and event styling? These services are designed to help you look flawless in person and in photos.</p>
+        </div>
+
+        <div class="grid services-grid">
+          <div class="card service-card fade-up">
+            <div class="service-icon">💍</div>
+            <h3>Bridal Makeup</h3>
+            <p>Luxurious, long-lasting bridal makeup tailored to your wedding outfit, jewelry, skin tone, and dream look.</p>
+            <p><strong>Best for:</strong> Wedding day, reception, traditional bridal events.</p>
+          </div>
+          <div class="card service-card fade-up">
+            <div class="service-icon">✨</div>
+            <h3>Engagement Makeup</h3>
+            <p>Soft, romantic glam that gives you a radiant finish for engagement ceremonies, ring events, and pre-wedding shoots.</p>
+            <p><strong>Benefit:</strong> Elegant and camera-ready look with natural charm.</p>
+          </div>
+          <div class="card service-card fade-up">
+            <div class="service-icon">🌸</div>
+            <h3>Party Makeup</h3>
+            <p>Fresh, stylish makeup for birthdays, receptions, festive events, and special evenings where you want to stand out beautifully.</p>
+            <p><strong>Benefit:</strong> Lightweight feel with glowing finish.</p>
+          </div>
+          <div class="card service-card fade-up">
+            <div class="service-icon">🎥</div>
+            <h3>HD & Airbrush Makeup</h3>
+            <p>Advanced makeup finish for high-definition photography and videography, ideal for brides who want refined, seamless skin texture.</p>
+            <p><strong>Benefit:</strong> Smooth, polished, premium appearance.</p>
+          </div>
+          <div class="card service-card fade-up">
+            <div class="service-icon">💇</div>
+            <h3>Hairstyling</h3>
+            <p>Elegant buns, curls, braids, and bridal hairstyling that complement your face, dupatta setting, veil, and accessories.</p>
+            <p><strong>Benefit:</strong> Complete beauty look in one place.</p>
+          </div>
+          <div class="card service-card fade-up">
+            <div class="service-icon">👑</div>
+            <h3>Complete Bridal Styling</h3>
+            <p>A full beauty experience including makeup, hairstyle, draping support, and finishing touches for a calm, confident bridal preparation.</p>
+            <p><strong>Benefit:</strong> Stress-free and beautifully coordinated.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container ba-wrap">
+        <div class="fade-up">
+          <span class="eyebrow">Before / After</span>
+          <h2>See the Transformation</h2>
+          <p>Every face is beautiful. The goal is not to hide it, but to enhance it. This transformation style reflects Sangeeta’s signature finish—soft, refined, and beautifully balanced.</p>
+          <p>Use the slider to compare a simple look with a polished bridal-inspired finish.</p>
+        </div>
+
+        <div class="card slider-card fade-up">
+          <div class="before-after" id="beforeAfter">
+            <div class="img before"></div>
+            <div class="img after" id="afterLayer"></div>
+            <div class="label-chip label-before">Before</div>
+            <div class="label-chip label-after">After</div>
+            <div class="slider-line" id="sliderLine"></div>
+            <div class="slider-thumb" id="sliderThumb">↔</div>
+          </div>
+          <input class="range" id="rangeSlider" type="range" min="0" max="100" value="50" aria-label="Before after slider">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="fade-up" style="max-width:760px;margin-bottom:28px">
+          <span class="eyebrow">Portfolio / Gallery</span>
+          <h2>Elegant Bridal & Event Makeup Gallery</h2>
+          <p>Explore a curated gallery of bridal looks, party makeup, and graceful transformations. Placeholder visuals are used below to represent the premium style of the brand.</p>
+        </div>
+
+        <div class="grid portfolio-grid">
+          <div class="gallery-item large fade-up">
+            <img src="https://images.unsplash.com/photo-1523263685509-57c1d050d19b?auto=format&fit=crop&w=1200&q=80" alt="Bridal makeup look">
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Bridal Look</span>
+              <div>Classic bridal elegance with glowing skin and defined eyes.</div>
+            </div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80" alt="Engagement makeup look">
+            <div class="gallery-overlay"><span class="gallery-tag">Engagement</span><div>Soft glam for modern celebrations.</div></div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Party makeup look">
+            <div class="gallery-overlay"><span class="gallery-tag">Party Makeup</span><div>Fresh, glowing, and polished.</div></div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=80" alt="Bridal transformation">
+            <div class="gallery-overlay"><span class="gallery-tag">Transformation</span><div>Refined details for a premium finish.</div></div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df?auto=format&fit=crop&w=900&q=80" alt="Hairstyling portfolio">
+            <div class="gallery-overlay"><span class="gallery-tag">Hairstyling</span><div>Elegant styling to complete the look.</div></div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://images.unsplash.com/photo-1518622358385-8ea7d0794bf6?auto=format&fit=crop&w=900&q=80" alt="Wedding makeup artist portfolio">
+            <div class="gallery-overlay"><span class="gallery-tag">Wedding Glam</span><div>Perfect for ceremonies and reception moments.</div></div>
+          </div>
+          <div class="gallery-item fade-up">
+            <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80" alt="Professional makeup artist near me">
+            <div class="gallery-overlay"><span class="gallery-tag">HD Makeup</span><div>Flawless makeup for camera-ready beauty.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="fade-up" style="max-width:760px;margin-bottom:28px">
+          <span class="eyebrow">Client Reviews</span>
+          <h2>Words from Happy Brides & Clients</h2>
+          <p>Trust is everything for beauty services. These reviews reflect the kind of warm, satisfying experience clients look for in a bridal makeup artist in Assam.</p>
+        </div>
+
+        <div class="grid testimonials">
+          <div class="card review fade-up">
+            <div class="stars">★★★★★</div>
+            <p>“Sangeeta did my bridal makeup exactly the way I wanted—soft, elegant, and long-lasting. I received so many compliments and felt beautiful all day.”</p>
+            <div class="reviewer">
+              <div class="avatar">R</div>
+              <div><strong>Riya Gogoi</strong><br><span style="color:var(--muted);font-size:.92rem">Bride, Sivasagar</span></div>
+            </div>
+          </div>
+          <div class="card review fade-up">
+            <div class="stars">★★★★★</div>
+            <p>“Very professional and calm during the whole process. The makeup looked natural in person and amazing in photos. Highly recommended for wedding events.”</p>
+            <div class="reviewer">
+              <div class="avatar">P</div>
+              <div><strong>Pallabi Saikia</strong><br><span style="color:var(--muted);font-size:.92rem">Engagement Client</span></div>
+            </div>
+          </div>
+          <div class="card review fade-up">
+            <div class="stars">★★★★★</div>
+            <p>“I loved the hygiene, products, and hairstyling. Sangeeta understood my outfit and made a look that felt truly me. Very talented and friendly.”</p>
+            <div class="reviewer">
+              <div class="avatar">M</div>
+              <div><strong>Monalisa Dutta</strong><br><span style="color:var(--muted);font-size:.92rem">Party Makeup Client</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner fade-up">
+          <div>
+            <h3 style="margin-bottom:6px;color:white">Make Your Special Day Truly Unforgettable</h3>
+            <p>Book your bridal or event makeup session with Makeup Artist Sangeeta today.</p>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a href="#booking" class="btn btn-secondary">Book Appointment</a>
+            <a href="https://wa.me/919435057081" target="_blank" rel="noopener" class="btn" style="background:white;color:var(--gold-dark)">WhatsApp Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="container booking-wrap">
+        <div class="card form-card fade-up">
+          <span class="eyebrow">Book Appointment</span>
+          <h2>Reserve Your Date</h2>
+          <p>Share your event details and Sangeeta will get back to you as soon as possible.</p>
+
+          <form onsubmit="handleSubmit(event)">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="date" name="date" required>
+            <textarea name="message" placeholder="Tell us about your event, preferred makeup style, and location"></textarea>
+            <button type="submit" class="btn btn-primary">Send Booking Request</button>
+          </form>
+
+          <div style="margin-top:16px">
+            <a href="https://wa.me/919435057081?text=Hello%20Makeup%20Artist%20Sangeeta,%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="btn btn-secondary">Book via WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="card contact-card fade-up" id="contact">
+          <span class="eyebrow">Contact Details</span>
+          <h2>Get in Touch</h2>
+          <p>For bridal bookings, party makeup, and hairstyling in Sivasagar and nearby areas, contact Makeup Artist Sangeeta directly.</p>
+
+          <div class="info-list">
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div>
+                <strong>Phone</strong><br>
+                <a href="tel:09435057081" style="color:var(--gold-dark);font-weight:700">09435057081</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <strong>Address</strong><br>
+                Melachakar, Sivasagar, Assam 785640, India
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🗺️</div>
+              <div>
+                <strong>Google Maps</strong><br>
+                <a href="https://maps.app.goo.gl/qrBKftwhBq9GRiGN9" target="_blank" rel="noopener" style="color:var(--gold-dark);font-weight:700">Open Location</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="socials">
+            <a href="#" class="social" aria-label="Instagram">◎</a>
+            <a href="#" class="social" aria-label="Facebook">f</a>
+            <a href="https://wa.me/919435057081" target="_blank" rel="noopener" class="social" aria-label="WhatsApp">✆</a>
+          </div>
+
+          <div style="margin-top:20px">
+            <iframe
+              class="map-embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Melachakar,%20Sivasagar,%20Assam%20785640&z=14&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>
+        <strong>Makeup Artist Sangeeta</strong><br>
+        Bridal Makeup Artist in Sivasagar, Assam
+      </div>
+      <div>
+        © <span id="year"></span> Makeup Artist Sangeeta. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/919435057081" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">✆</a>
+  <a class="book-float" href="#booking">Book Now</a>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+    const rangeSlider = document.getElementById('rangeSlider');
+    const afterLayer = document.getElementById('afterLayer');
+    const sliderLine = document.getElementById('sliderLine');
+    const sliderThumb = document.getElementById('sliderThumb');
+
+    function updateSlider(value){
+      afterLayer.style.width = value + '%';
+      sliderLine.style.left = value + '%';
+      sliderThumb.style.left = value + '%';
+    }
+    rangeSlider.addEventListener('input', e => updateSlider(e.target.value));
+    updateSlider(rangeSlider.value);
+
+    function handleSubmit(e){
+      e.preventDefault();
+      const form = e.target;
+      const name = encodeURIComponent(form.name.value);
+      const phone = encodeURIComponent(form.phone.value);
+      const date = encodeURIComponent(form.date.value);
+      const message = encodeURIComponent(form.message.value);
+      const text = `Hello Makeup Artist Sangeeta,%0A%0AI want to book an appointment.%0AName: ${name}%0APhone: ${phone}%0AEvent Date: ${date}%0AMessage: ${message}`;
+      window.open(`https://wa.me/919435057081?text=${text}`, '_blank');
+    }
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting) entry.target.classList.add('show');
+      });
+    },{threshold:0.12});
+
+    document.querySelectorAll('.fade-up').forEach(el=>observer.observe(el));
+
+    const sections = document.querySelectorAll('section[id]');
+    const navAnchors = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const top = section.offsetTop - 120;
+        if (window.scrollY >= top) current = section.getAttribute('id');
+      });
+      navAnchors.forEach(a => {
+        a.classList.remove('active');
+        if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
